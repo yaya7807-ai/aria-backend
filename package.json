@@ -1,0 +1,21 @@
+{
+  "name": "aria-backend",
+  "version": "1.0.0",
+  "description": "Backend API A.R.I.A (Automated Rainfall & Inundation Alert) - Early Warning System banjir",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "migrate": "node scripts/migrate.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "node_id": "SENSOR_NODE_01",
+  "timestamp": "2026-10-27T10:05:00Z",
+  "data": {
+    "ketinggian_air_cm": 150.5,
+    "status_hujan": "Deras",
+    "float_switch_aktif": false
+  },
+  "status_node": {
+    "baterai_persen": 85,
+    "koneksi": "WiFi",
+    "kamera_url": "http://link-gambar-espcam.com/snapshot1.jpg"
+  }
+}
